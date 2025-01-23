@@ -1,16 +1,88 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 1100px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .imageContainer img {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        td img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .text-content {
+            width: 600px;
+            padding: 0 20px;
+            text-align: left;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .image-column {
+            width: 200px;
+        }
+        /* Optional: Adding hover effect on the table */
+        tr:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <div class="imageContainer">
+            <img src="" alt="Architecture Image">
+        </div>
 
+        <table>
+            <tr>
+                <td class="image-column"><img src="https://via.placeholder.com/200x200?text=Building+1" alt="Building 1"></td>
+                <td class="text-content">
+                    <p>This is an example of a modern architectural style, showcasing sleek lines and minimalist design. The use of glass and steel gives it a contemporary look.</p>
+                </td>
+                <td class="image-column"><img src="https://via.placeholder.com/200x200?text=Building+2" alt="Building 2"></td>
+            </tr>
+            <tr>
+                <td class="image-column"><img src="https://storage.googleapis.com/acciojob-open-file-collections/5c751d10-50b1-4ef7-887a-ee69223c7c53_Screenshot%202023-08-16%20at%2012.56.13%20AM.png" alt="Building 3"></td>
+                <td class="text-content">
+                    <p>This architectural design incorporates classic elements with a modern twist. Notice the decorative facades and intricate details that evoke a sense of tradition.</p>
+                </td>
+                <td class="image-column"><img src="https://storage.googleapis.com/acciojob-open-file-collections/5c751d10-50b1-4ef7-887a-ee69223c7c53_Screenshot%202023-08-16%20at%2012.56.13%20AM.png" alt="Building 4"></td>
+            </tr>
+        </table>
+    </div>
 </body>
-
 </html>
